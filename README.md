@@ -1,2 +1,8 @@
-# OTUS_PG
-Otus home tasks PG SQL
+# Домашняя работа №
+
+
+# Подготовка
+
+>
+>
+>
