@@ -16,6 +16,8 @@
 
 ![имг 02](IMG/2.png "Подготовка")
 
+# Основная работа
+
 > остановите postgres например через sudo -u postgres pg_ctlcluster 15 main stop
 > сделайте пользователя postgres владельцем /mnt/data - chown -R postgres:postgres /mnt/data/
 > перенесите содержимое /var/lib/postgres/15 в /mnt/data - mv /var/lib/postgresql/15 /mnt/data
