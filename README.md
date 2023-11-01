@@ -29,7 +29,22 @@
 
 ![имг 00](IMG/3.png "Подготовка")
 
-Параметры применены. Кластер перезапущен.
+Параметры применены. Кластер перезапущен. <br>
+Так-же возможно задание данных параметров через SQL <br>
+```
+alter system set max_connections to 40;
+alter system set shared_buffers to '1GB';
+alter system set effective_cache_size to '3GB';
+alter system set maintenance_work_mem to '512MB';
+alter system set checkpoint_completion_target to 0.9;
+alter system set wal_buffers to '16MB';
+alter system set default_statistics_target to 500;
+alter system set random_page_cost to 4;
+alter system set effective_io_concurrency to 2;
+alter system set work_mem to '6553kB';
+alter system set min_wal_size to '4GB';   
+alter system set max_wal_size to '16GB';
+```
 
 > Протестировать заново<br>
 > Что изменилось и почему?<br>
