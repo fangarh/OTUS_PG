@@ -99,7 +99,7 @@ fsync = off;<br>
 
 * Запускаем тест на новом кластере<br>
 ./tpcc.lua --pgsql-port=5433 --pgsql-user=postgres --pgsql-password=**** --pgsql-db=speedtest --time=60 --scale=10 --threads=2 --report-interval=1  --tables=1 --db-driver=pgsql prepare<br>
-./tpcc.lua --pgsql-port=5433 --pgsql-user=postgres --pgsql-password=**** --pgsql-db=speedtest --time=60 --scale=10 --threads=2 --report-interval=5  --tables=1 --db-driver=pgsql run<br>
+./tpcc.lua --pgsql-port=5433 --pgsql-user=postgres --pgsql-password=**** --pgsql-db=speedtest --time=60 --scale=10 --threads=2 --report-interval=10  --tables=1 --db-driver=pgsql run<br>
 
 ![имг 00](IMG/4_1.png "Подготовка")<br>
 ![имг 00](IMG/4_2.png "Подготовка")<br>
