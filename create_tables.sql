@@ -9,6 +9,7 @@ drop table if exists public.titul;
 drop table if exists public.sending_log;
 drop table if exists public.log_status;
 drop table if exists public.log_action;
+drop sequence titul_seq ;
 ------- system ------------
 
 create table public.partition_element_type(
@@ -28,31 +29,35 @@ create table public.project_partitions_tree(
 	deleted boolean default(false)
 ); 
 
+create sequence titul_seq as integer;
+
 create table public.titul (
-	id uuid default gen_random_uuid() primary key,
+	id integer NOT NULL DEFAULT nextval('titul_seq') primary key,
 	name text,
 	storage_path text
 );
 
 create table public.contracts (
 	id uuid default gen_random_uuid() primary key,
-	titul_id uuid not null,
+	titul_id int not null,
 	number varchar(64),
 	legal_number varchar(64),
 	name text	
 );
 
 create table public.project_partitions(
-	row_id uuid default gen_random_uuid() primary key,
+	row_id uuid default gen_random_uuid(),
 	parent_row_id uuid default gen_random_uuid(),
 	template_partition_id uuid not null,
 	name text,
-	partition_number varchar(16),
+	partition_number varchar(16),	
 	deleted boolean default(false),
 	updated timestamptz default(CURRENT_TIMESTAMP),
 	stage varchar(64),
-	contract_id uuid
-);
+	contract_id uuid,
+	titul_id integer not null,
+	primary key(row_id, titul_id)
+) partition by list(titul_id);
 
 
 create table public.partition_volume(
@@ -99,11 +104,12 @@ create table public.sending_log (
 
 ------ FK --------
 
+/*
 alter table public.partition_volume 
 add constraint partition_volume_fk
 foreign key(partition_id)
 references public.project_partitions(row_id);
-
+*/
 alter table public.volume_files 
 add constraint volume_files_fk
 foreign key(volume_id)

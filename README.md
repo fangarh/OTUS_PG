@@ -294,8 +294,67 @@ references public.contracts (id);
 
 ## Оптимизация доступа к данным.
 
-На основании системы эксплуатируемой в данный момент, самые частые поиски в системе будут по следующим таблицам:
-* 
+На основании системы эксплуатируемой в данный момент, можно выделить две самые проблемные и тяжелые операции:
+* Рекурсивное построение дерева по таблице **project_partitions**.
+* Поиск истории операций по таблице **sending_log**
 
-Для анализа реализовано ПО на NET.CORE позволяющее просто заполнить все таблицы тестовыми данными.
+### Оптимизация таблицы **project_partitions**
+
+По данной таблице строится рекурсивный запрос WITH, для получения состава проекта. Одним из простейших вариантов оптимизации будет построение индекса по полю привязки к договору.
+Самым удобным на мой взгляд решением будет секционирование данной таблицы по списку проектов. При этом для сохранения целостности при добавление титула будем добавлять секции, 
+для этого реализуем тригер на добавление в таблицу, в идеале реализовать функцию и разрешить добавление записей только через нее, но в стандартной поставке PG это не реализкемо.
+
+Так-же внесем изменение в таблицу **project_partitions** и прокинем туда идентификатор титула, что-бы секционировать по нему. Так-же это приведет к необходимости денормализации таблиц. 
+Удаляем вторичный ключ **partition_volume_fk**.
+
+Ниже приведен измененный скрипт создания таблицы **project_partitions**:
+```
+create table public.project_partitions(
+	row_id uuid default gen_random_uuid(),
+	parent_row_id uuid default gen_random_uuid(),
+	template_partition_id uuid not null,
+	name text,
+	partition_number varchar(16),	
+	deleted boolean default(false),
+	updated timestamptz default(CURRENT_TIMESTAMP),
+	stage varchar(64),
+	contract_id uuid,
+	project_id integer not null,
+	primary key(row_id, project_id)
+) partition by list(project_id);
+```
+
+```
+create or replace function insert_titul_trf()
+returns trigger 
+language plpgsql
+as $$
+declare
+	query text;    
+begin
+	query := format($que$
+		CREATE TABLE project_partitions_%s
+        PARTITION OF project_partitions
+        FOR VALUES IN ('%s');
+        $que$, new.id, cr.id);
+	execute query;                          
+
+	return new; 
+end;
+
+$$;
+
+drop trigger if exists t_insert_titul on public.titul;
+
+create trigger t_insert_titul after insert on public.titul 
+for each row 
+execute procedure insert_titul_trf();
+```
+
+![имг 00](IMG/2.png "Подготовка")
+
+## Анализ итогов оптимизации
+Для анализа реализуется ПО на NET.CORE позволяющее просто заполнить все таблицы тестовыми данными.
+
+
 
