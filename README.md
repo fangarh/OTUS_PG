@@ -35,8 +35,11 @@ Storage 2: 128 Gb SSD
 Для анализа производительности проведем с помощью утиллиты *sysbench*: https://github.com/Percona-Lab/sysbench-tpcc
 <br/>
 Снимаем показания до настроек:<br/>
+
+```
 ./tpcc.lua --pgsql-port=5432 --pgsql-user=postgres --pgsql-password=**** --pgsql-db=speedtest --time=60 --scale=10 --threads=2 --report-interval=1 --tables=1 --db-driver=pgsql prepare<br/>
 ./tpcc.lua --pgsql-port=5432 --pgsql-user=postgres --pgsql-password=ghbt[fkb --pgsql-db=speedtest --time=60 --scale=10 --threads=2 --report-interval=5 --tables=1 --db-driver=pgsql run<br/>
+```
 
 ![имг 00](IMG/0_1_1.png "Подготовка")
 
@@ -234,6 +237,7 @@ create table public.sending_log (
 ```
 
 И соответственно нормализация структуры данных:
+
 ```
 ------ FK --------
 
@@ -286,8 +290,12 @@ add constraint pp_contract_fk
 foreign key (contract_id) 
 references public.contracts (id);
 ```
+![имг 00](IMG/1.png "Подготовка")
 
+## Оптимизация доступа к данным.
 
+На основании системы эксплуатируемой в данный момент, самые частые поиски в системе будут по следующим таблицам:
+* 
 
-
+Для анализа реализовано ПО на NET.CORE позволяющее просто заполнить все таблицы тестовыми данными.
 
