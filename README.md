@@ -304,6 +304,30 @@ references public.contracts (id);
 Самым удобным на мой взгляд решением будет секционирование данной таблицы по списку проектов. При этом для сохранения целостности при добавление титула будем добавлять секции, 
 для этого реализуем тригер на добавление в таблицу, в идеале реализовать функцию и разрешить добавление записей только через нее, но в стандартной поставке PG это не реализкемо.
 
+Вначале реализуем непосредственно функцию получения дерева:
+
+```
+create or replace function get_project_tree(p_contract_id uuid) 
+returns table(id uuid, parent_id uuid, lvl integer) 
+language 'plpgsql' 
+as $BODY$ 
+begin
+return query 
+with recursive ReqSet(id, parent_id, lvl)  as(  
+	select p.row_id as id, p.parent_row_id as parent_id, 0 as lvl
+	from public.project_partitions p
+	where p.contract_id = p_contract_id and p.parent_row_id is null
+	union all
+	select p.row_id, p.parent_row_id, r.Lvl + 1 
+	from public.project_partitions p
+	inner join ReqSet r on r.id = p.parent_row_id 
+)
+
+select * from ReqSet r;
+END
+$BODY$;
+```
+
 Так-же внесем изменение в таблицу **project_partitions** и прокинем туда идентификатор титула, что-бы секционировать по нему. Так-же это приведет к необходимости денормализации таблиц. 
 Удаляем вторичный ключ **partition_volume_fk**.
 
@@ -319,9 +343,9 @@ create table public.project_partitions(
 	updated timestamptz default(CURRENT_TIMESTAMP),
 	stage varchar(64),
 	contract_id uuid,
-	project_id integer not null,
-	primary key(row_id, project_id)
-) partition by list(project_id);
+	titul_id integer not null,
+	primary key(row_id, parent_row_id, titul_id)
+) partition by list(titul_id);
 ```
 
 ```
@@ -352,6 +376,21 @@ execute procedure insert_titul_trf();
 ```
 
 ![имг 00](IMG/2.png "Подготовка")
+
+### Реализуем простейший код для заполнения БД произвольными данными **(проект приложен в github)**
+
+
+Для cравнения выполним explain на секционированной таблице и на не секционированной таблице. Данная выборка выполнена при 111000 записей.
+Подключение оснастки к БД осуществляется из другого города, ситуация максимально приближена к реальным условиям, за исключением количества одновременных запросов.
+
+Результат поиска при секционировании
+
+![имг 00](IMG/sectioned.png "Подготовка")
+
+Результат поиска без секционирования
+
+![имг 00](IMG/not_sectioned.png "Подготовка")
+
 
 ## Анализ итогов оптимизации
 Для анализа реализуется ПО на NET.CORE позволяющее просто заполнить все таблицы тестовыми данными.

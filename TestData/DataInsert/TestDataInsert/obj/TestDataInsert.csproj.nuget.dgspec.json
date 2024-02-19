@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\Обучение\\OTUS\\Pg\\Task1\\TestData\\DataInsert\\TestDataInsert\\TestDataInsert.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\Обучение\\OTUS\\Pg\\Task1\\TestData\\DataInsert\\TestDataInsert\\TestDataInsert.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\Обучение\\OTUS\\Pg\\Task1\\TestData\\DataInsert\\TestDataInsert\\TestDataInsert.csproj",
+        "projectName": "TestDataInsert",
+        "projectPath": "E:\\Projects\\Обучение\\OTUS\\Pg\\Task1\\TestData\\DataInsert\\TestDataInsert\\TestDataInsert.csproj",
+        "packagesPath": "C:\\Users\\dds\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Обучение\\OTUS\\Pg\\Task1\\TestData\\DataInsert\\TestDataInsert\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://nuget.int.lgt.ru/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/lwrbUhcofslnAZ6Otlasx8LZPj7tKTCkSRFgmdb2kXEN7FqgGD/api": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

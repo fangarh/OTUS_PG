@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataInsert", "TestDataInsert\TestDataInsert.csproj", "{E9AFFAA1-511B-4361-94F6-F23422E496CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9AFFAA1-511B-4361-94F6-F23422E496CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AFFAA1-511B-4361-94F6-F23422E496CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AFFAA1-511B-4361-94F6-F23422E496CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AFFAA1-511B-4361-94F6-F23422E496CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EED90F83-6427-4EBF-9553-E279CA749764}
+	EndGlobalSection
+EndGlobal

@@ -19,13 +19,11 @@ create table public.partition_element_type(
 
 create table public.project_partitions_tree(
 	id uuid default gen_random_uuid() primary key,
-	parent_id uuid,
+	parent_row_id uuid,
 	name text,
 	type_id integer,
 	element_number varchar(16),
 	element_code varchar(16),
-	date_from timestamptz,
-	date_to timestamptz,
 	deleted boolean default(false)
 ); 
 
@@ -47,7 +45,7 @@ create table public.contracts (
 
 create table public.project_partitions(
 	row_id uuid default gen_random_uuid(),
-	parent_row_id uuid default gen_random_uuid(),
+	parent_row_id uuid ,
 	template_partition_id uuid not null,
 	name text,
 	partition_number varchar(16),	
@@ -56,7 +54,7 @@ create table public.project_partitions(
 	stage varchar(64),
 	contract_id uuid,
 	titul_id integer not null,
-	primary key(row_id, titul_id)
+	primary key(row_id,  titul_id)
 ) partition by list(titul_id);
 
 
