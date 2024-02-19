@@ -19,7 +19,7 @@
 ОС: Ubuntu 22.04
 CPU: 8 Core
 Ram: 16Gb
-Storage 1: 256 Gb SSD
+Storage 1: 256 Gb HDD
 Storage 2: 128 Gb SSD
 
 Установлен PG SQL 15.
@@ -391,9 +391,78 @@ execute procedure insert_titul_trf();
 
 ![имг 00](IMG/not_sectioned.png "Подготовка")
 
+*В итоге имеем 13 кратный прирост производительности.*
+
+### Аналогично делаем для таблицы логов. Секционирование будем выполнять по промежуткам
+
+Простейший способ поддерживать секционность - тригер на добавление в таблицу, но к сожалению PG в стоке это не поддерживает. 
+Реализуем специальную функцию для добавления лога, которая как раз будет создавать раздел таблицы.
+Первым делом проверим время получения время получения существующих секций. 
+![имг 00](IMG/3.png "Подготовка")
+С ростом таблицы время получения секций значительно меняться не будет, так что можно взять его за константу 1мс.
+
+Корректируем таблицу
+```
+create table public.sending_log (
+	row_id uuid default gen_random_uuid() ,
+	action integer,
+	status integer,
+	"user" varchar(512),
+	pc varchar(512),
+	message text,
+	log_date timestamptz default (CURRENT_TIMESTAMP),
+	linked_partition uuid ,
+	primary key(row_id,  log_date)
+)partition by range (log_date);
+```
+
+```
+create or replace function insert_log_trf(laction integer, lstatus integer, luser varchar(512), lpc varchar(512), lmessage text, llinked_partition uuid)
+returns uuid
+language plpgsql
+as $$
+declare
+	query text;   
+	id uuid;
+	sec_count integer;
+    low_range varchar(16);
+    high_range varchar(16);
+begin
+	select  count(*)
+	into strict sec_count
+	from pg_inherits
+	inner join pg_class parent            on pg_inherits.inhparent = parent.oid
+	inner join pg_class child             on pg_inherits.inhrelid   = child.oid
+	inner join pg_namespace nmsp_parent   on nmsp_parent.oid  = parent.relnamespace
+	where child.relname='sending_log_' || to_char(now(), 'YYYY') and nmsp_parent.nspname = 'public';
+    id := gen_random_uuid ();
+	raise notice '%', sec_count;
+
+	if sec_count = 0 then	
+		low_range := to_char(date_trunc('year', now()), 'YYYY-MM-DD') ;
+  	    high_range := to_char(date_trunc('year', now()) + interval '1 year', 'YYYY-MM-DD');
+	
+		query := format($que$
+			CREATE TABLE "sending_log_%s"
+	        PARTITION OF sending_log
+	        FOR VALUES from ('%s') to ('%s');
+	        $que$, to_char(now(), 'YYYY'), low_range, high_range);
+	       raise notice '%',query;
+		execute query;                          
+	end if;
+	
+	insert into public.sending_log (id, "action", status, "user", pc,log_date,message, linked_partition) 
+	values (id, laction, lstatus, luser, lpc, now(), lmessage, llinked_partition);
+return id;
+end;$$
+```
+## Настройка репликация
+Руководству предложен вариант развертования кластера patroni + haproxy
+
 
 ## Анализ итогов оптимизации
-Для анализа реализуется ПО на NET.CORE позволяющее просто заполнить все таблицы тестовыми данными.
+Для анализа реалиовано ПО на NET.CORE позволяющее просто заполнить все таблицы тестовыми данными приближенными к реальным.
+Необходимость в этом возникла в связи с сложностью структуры хранимых данных и строемых запросов.
 
 
 

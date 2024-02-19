@@ -90,15 +90,16 @@ create table public.log_action (
 );
 
 create table public.sending_log (
-	rowid uuid default gen_random_uuid()  primary key,
+	row_id uuid default gen_random_uuid() ,
 	action integer,
 	status integer,
 	"user" varchar(512),
 	pc varchar(512),
 	message text,
 	log_date timestamptz default (CURRENT_TIMESTAMP),
-	linked_partition uuid 
-);
+	linked_partition uuid ,
+	primary key(row_id,  log_date)
+)partition by range (log_date);
 
 ------ FK --------
 
