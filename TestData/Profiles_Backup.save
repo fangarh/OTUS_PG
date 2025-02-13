@@ -1,0 +1,17 @@
+[
+  {
+    "id": null,
+    "name": null,
+    "lastPickTime": 1739175175397,
+    "creationTime": 1734526979169,
+    "ironmanEverWon": false,
+    "isIronmanUnlocked": false,
+    "isIronman": false,
+    "isIronmanActive": false,
+    "ironmanResult": false,
+    "ironmanEndTime": 0,
+    "ironmanWorldSeed": 2536,
+    "ironmanGamesWon": 0,
+    "ironmanValidLosses": 0
+  }
+]

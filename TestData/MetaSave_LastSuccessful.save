@@ -1,0 +1,4224 @@
+{
+  "version": "1.5.6R",
+  "isIronman": false,
+  "account": {
+    "gameId": "590ee2f0-96dd-4cf4-9155-7c37760c23e7",
+    "cognitoId": null,
+    "fullVersion": true,
+    "creationTimestamp": 1734526979835,
+    "activatedDlcs": []
+  },
+  "level": {
+    "level": 7,
+    "exp": 400,
+    "targetExp": 400
+  },
+  "marketing": {
+    "earlyAccessPopupShown": false,
+    "sfEventCompleted": false,
+    "sfEventPopupShown": false,
+    "lastUsedTwitchId": 276,
+    "updatesSeen": [
+      "0.10",
+      "0.11",
+      "0.12",
+      "0.13",
+      "0.14",
+      "0.15",
+      "0.16",
+      "0.17",
+      "0.18",
+      "0.19",
+      "0.20",
+      "0.21",
+      "0.22",
+      "0.23",
+      "0.24",
+      "0.25",
+      "0.26",
+      "0.27",
+      "0.28",
+      "0.29",
+      "0.30",
+      "0.31",
+      "0.32",
+      "0.33",
+      "0.34",
+      "0.35",
+      "0.36",
+      "0.37",
+      "0.38",
+      "0.39",
+      "0.40",
+      "0.41",
+      "0.42",
+      "0.43",
+      "0.44",
+      "0.45",
+      "0.46",
+      "0.47",
+      "0.48",
+      "0.49",
+      "0.50",
+      "0.51",
+      "0.52",
+      "0.53",
+      "0.54",
+      "0.55",
+      "0.56",
+      "0.57",
+      "0.58",
+      "0.59",
+      "0.60",
+      "0.61",
+      "0.62",
+      "0.63",
+      "0.64",
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5"
+    ],
+    "completedVotes": []
+  },
+  "analytics": {
+    "ftueSteps": [
+      10,
+      20,
+      30,
+      35,
+      40,
+      50,
+      100,
+      205,
+      210,
+      220,
+      230,
+      235,
+      250,
+      260,
+      300,
+      305,
+      320,
+      330,
+      340,
+      351,
+      360,
+      370,
+      380,
+      390,
+      395,
+      400,
+      405,
+      410,
+      420,
+      430,
+      440,
+      450,
+      460,
+      500
+    ],
+    "completedFtueEvents": [
+      "MenuLanding",
+      "IntroStart",
+      "IntroEnd",
+      "Tutorial1Start",
+      "Tutorial1End",
+      "TutorialOrderFinished_TI Woodcutters Camp",
+      "TutorialOrderFinished_TI Glades",
+      "TutorialOrderFinished_TI Forager",
+      "TutorialOrderFinished_TI Stonecutter",
+      "TutorialOrderFinished_TI Scavenger",
+      "TutorialOrderFinished_TI Building Blocks",
+      "Tutorial1Finished",
+      "TutorialOrderFinished_TI Deep Exploration",
+      "Tutorial2Start",
+      "Tutorial2End",
+      "TutorialOrderFinished_T II Farm",
+      "Tutorial2Finished",
+      "FirstGameStarted",
+      "TutorialOrderFinished_T III Berries",
+      "TutorialOrderFinished_T III Trading Post",
+      "TutorialOrderFinished_T III Rain",
+      "TutorialOrderFinished_T III Food",
+      "TutorialOrderFinished_T III Wine",
+      "TutorialOrderFinished_T III Sacrifice",
+      "FirstGameFinished",
+      "SecondGameStarted",
+      "MenuSecondGameFinishedLanding"
+    ]
+  },
+  "stats": {
+    "lastGameCompleted": false,
+    "session": 4,
+    "gamesStarted": 6,
+    "gamesFinished": 5,
+    "gamesWon": 4,
+    "gamesLost": 1,
+    "timeSpentInGame": 280035.58100000391,
+    "timeSpentInCurrentSession": 71511.21,
+    "highestWonDifficulty": 2,
+    "highestWonSeal": null,
+    "finishedRelics": [
+      "RewardChest_T1",
+      "Ruined Herbalist Camp",
+      "TI AncientShrine_T1",
+      "Camp_T1",
+      "Rainpunk Drill - Salt",
+      "Ruined Weaver",
+      "RewardChest_T2",
+      "Traders Cemetery",
+      "RewardChest_T3",
+      "Fuming Machinery",
+      "AncientShrine_T1",
+      "Rainpunk Drill - Copper",
+      "Rain Totem",
+      "Ruined Trappers Camp",
+      "Fishmen Cave",
+      "Ruined Granary",
+      "AncientGate",
+      "Rainpunk Drill - Coal",
+      "Harmony Spirit Altar",
+      "Caravan_T1",
+      "Camp_T2",
+      "AncientTemple",
+      "Leaking Cauldron",
+      "Ruined Brick Oven",
+      "PetrifiedTree_T1",
+      "Monolith",
+      "Ruined Monastery",
+      "Sacrifice Totem",
+      "Ruined Fishing Hut",
+      "Ruined Plantation",
+      "Haunted Ruined Beaver House",
+      "BeaverBattleground_T1",
+      "Snake 1",
+      "Snake 2",
+      "Snake 3",
+      "ForsakenCrypt",
+      "Ruined Provisioner"
+    ]
+  },
+  "gameplay": {
+    "lastPickedDifficlty": 0,
+    "hasActiveGame": true,
+    "isUsingGridStorageView": false,
+    "everChangedContractedSeals": false,
+    "worldTutorialsHUDShown": true,
+    "lastFinishedDaily": 0,
+    "finishedDailyDifficulties": [],
+    "lastBiomMaps": {
+      "Tutorial I": [
+        "Tutorial 01"
+      ],
+      "Tutorial II": [
+        "Tutorial 02"
+      ],
+      "Royal Woodlands": [
+        "Forest Map 03",
+        "Forest Map 01",
+        "Forest Map 02"
+      ],
+      "Tutorial III": [
+        "Forest Map 01"
+      ],
+      "Moorlands": [
+        "Moorlands Map 01",
+        "Moorlands Map 03"
+      ],
+      "Coral Forest": [
+        "Coral Forest 01"
+      ]
+    },
+    "workshopsGlobalLimits": {},
+    "internalStoragesLimits": {
+      "Woodcutters Camp": -1,
+      "Primitive Forager's Camp": -1,
+      "Crude Workstation": -1,
+      "SmallFarm": -1,
+      "Trapper's Camp": -1,
+      "Herb Garden": -1,
+      "Primitive Trapper's Camp": -1,
+      "Mine": -1,
+      "Herbalist's Camp": -1,
+      "Plantation": -1,
+      "Harvester Camp": -1
+    },
+    "mainStoragesLimits": {},
+    "mainStoragesLimitsActivation": [],
+    "trackedGoods": [
+      "[Mat Raw] Wood"
+    ],
+    "playedWorldEffects": [
+      "[Map Mod] Overgrown Library",
+      "[Biome] Wood in Woodlands",
+      "[Map Mod] Petrified Necropolis",
+      "[Biome] Moorlands - Archaeologist Blueprint",
+      "[Biome] Moorlands - glades",
+      "[Map Mod] No Glade Info",
+      "[Mod] Ominous Presence",
+      "[Map Mod] Trader Attack",
+      "[Diff] Lower Food Consumption",
+      "[Map Mod] No Control",
+      "[Map Mod] Ruins",
+      "[BIOME] Diverse Flora",
+      "[BIOME] Inspiring Pressure Holder"
+    ],
+    "contractedSeals": [
+      "0 Normal Seal"
+    ]
+  },
+  "capitalState": {
+    "unlockedUpgrades": [
+      "Obsidian Archives Level 01",
+      "Obsidian Archives Level 02",
+      "Monastery Level 01",
+      "Vanguard Spire Level 01",
+      "First Dawn Level 01",
+      "Monastery Level 02",
+      "Obsidian Archives Level 03",
+      "Pioneers Gate Level 01",
+      "Obsidian Archives Level 04",
+      "First Dawn Level 02",
+      "Brass Forge Level 01",
+      "Dim Square Level 01",
+      "Monastery Level 03",
+      "Vanguard Spire Level 02",
+      "Obsidian Archives Level 05",
+      "Pioneers Gate Level 02",
+      "Obsidian Archives Level 06",
+      "First Dawn Level 03",
+      "Vanguard Spire Level 03",
+      "Brass Forge Level 02",
+      "Dim Square Level 02",
+      "Dim Square Level 03",
+      "Brass Forge Level 03",
+      "Monastery Level 04",
+      "Vanguard Spire Level 04",
+      "Obsidian Archives Level 07",
+      "Pioneers Gate Level 03",
+      "Brass Forge Level 04",
+      "Dim Square Level 04"
+    ],
+    "currentCycleUnlockedUpgrades": [
+      "Vanguard Spire Level 04",
+      "Obsidian Archives Level 07",
+      "Pioneers Gate Level 03",
+      "Brass Forge Level 04",
+      "Dim Square Level 04"
+    ],
+    "unlockedUpgradesPrices": {
+      "Obsidian Archives Level 01": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 10
+        }
+      ],
+      "Obsidian Archives Level 02": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 10
+        }
+      ],
+      "Monastery Level 01": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 10
+        }
+      ],
+      "Vanguard Spire Level 01": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 18
+        },
+        {
+          "name": "Machinery",
+          "amount": 3
+        }
+      ],
+      "First Dawn Level 01": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 12
+        }
+      ],
+      "Monastery Level 02": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 12
+        }
+      ],
+      "Obsidian Archives Level 03": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 12
+        }
+      ],
+      "Pioneers Gate Level 01": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 12
+        }
+      ],
+      "Obsidian Archives Level 04": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 18
+        }
+      ],
+      "First Dawn Level 02": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 18
+        }
+      ],
+      "Brass Forge Level 01": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 18
+        }
+      ],
+      "Dim Square Level 01": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 18
+        }
+      ],
+      "Monastery Level 03": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 24
+        },
+        {
+          "name": "Machinery",
+          "amount": 3
+        }
+      ],
+      "Vanguard Spire Level 02": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 24
+        },
+        {
+          "name": "Machinery",
+          "amount": 3
+        }
+      ],
+      "Obsidian Archives Level 05": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 24
+        }
+      ],
+      "Pioneers Gate Level 02": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 24
+        }
+      ],
+      "Obsidian Archives Level 06": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 30
+        }
+      ],
+      "First Dawn Level 03": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 30
+        }
+      ],
+      "Vanguard Spire Level 03": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 30
+        },
+        {
+          "name": "Machinery",
+          "amount": 6
+        }
+      ],
+      "Brass Forge Level 02": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 24
+        },
+        {
+          "name": "Artifacts",
+          "amount": 3
+        }
+      ],
+      "Dim Square Level 02": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 24
+        },
+        {
+          "name": "Artifacts",
+          "amount": 3
+        }
+      ],
+      "Dim Square Level 03": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 30
+        }
+      ],
+      "Brass Forge Level 03": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 30
+        }
+      ],
+      "Monastery Level 04": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 30
+        },
+        {
+          "name": "Artifacts",
+          "amount": 6
+        }
+      ],
+      "Vanguard Spire Level 04": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 36
+        },
+        {
+          "name": "Machinery",
+          "amount": 6
+        }
+      ],
+      "Obsidian Archives Level 07": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 36
+        }
+      ],
+      "Pioneers Gate Level 03": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 36
+        },
+        {
+          "name": "Artifacts",
+          "amount": 6
+        }
+      ],
+      "Brass Forge Level 04": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 36
+        },
+        {
+          "name": "Machinery",
+          "amount": 6
+        }
+      ],
+      "Dim Square Level 04": [
+        {
+          "name": "Food Stockpiles",
+          "amount": 36
+        },
+        {
+          "name": "Artifacts",
+          "amount": 6
+        }
+      ]
+    },
+    "upgradesRefunds": {}
+  },
+  "economy": {
+    "metaCurrencies": {
+      "Food Stockpiles": 1510,
+      "Machinery": 981,
+      "Artifacts": 987
+    },
+    "currentCycleMetaCurrencies": {
+      "Food Stockpiles": 16,
+      "Machinery": 3,
+      "Artifacts": 4
+    },
+    "lifetimeMetaCurrencies": {
+      "Food Stockpiles": 188,
+      "Machinery": 16,
+      "Artifacts": 14
+    },
+    "currentCycleExp": 180
+  },
+  "rewards": {
+    "activeRewards": [
+      "Meta Reward Impatience",
+      "Meta Reward Goals Unlock",
+      "Meta Reward Impatience",
+      "Consumption Control Activation",
+      "Meta Reward Burning Duration",
+      "Meta Reward Embark Goods Stone",
+      "Meta Reward Embark Goods Clay",
+      "Meta Reward Node Charges",
+      "Meta Reward Essential Human House",
+      "Meta Reward Bonus Yield",
+      "Meta Reward Meta Resources",
+      "Meta Reward Burning Duration",
+      "Meta Reward Cornerstone",
+      "Meta Reward Impatience",
+      "Meta Reward Reshuffle",
+      "Meta Reward Villager Speed",
+      "Meta Reward Embark Point",
+      "Meta Reward Impatience",
+      "Meta Reward Reputation Reward Pick",
+      "Meta Reward Bonus Yield",
+      "Meta Reward Embark Goods Vegetables",
+      "Meta Reward Embark Goods Meat",
+      "Meta Reward Prod Speed",
+      "Meta Reward Embark Villagers",
+      "Meta Reward Trader Arrival",
+      "Trade Routes Activation",
+      "Meta Reward Burning Duration",
+      "Meta Reward Cornerstone Reroll",
+      "Meta Reward Node Charges",
+      "Meta Reward Essential Beaver House",
+      "Meta Reward Impatience",
+      "Meta Reward Grace Period",
+      "Meta Reward Villager Speed",
+      "Meta Reward Embark Point",
+      "Meta Reward Impatience",
+      "Meta Reward Rainpunk Activation",
+      "Meta Reward Guaranteed Pipes",
+      "Meta Reward Bonus Yield",
+      "Meta Reward Embark Blueprint Herbalist",
+      "Meta Reward Node Charges",
+      "Meta Reward Essential Lizard House",
+      "Meta Reward Prod Speed",
+      "Meta Reward Hub Tier 1",
+      "Meta Reward Trader Arrival",
+      "Meta Reward Guaranteed Planks",
+      "Meta Reward Trader Arrival",
+      "Meta Reward Trader Merch",
+      "Meta Reward Prod Speed",
+      "Meta Reward Mine Upgrade Unlock",
+      "Meta Reward Burning Duration",
+      "Meta Reward Embark Goods Coal",
+      "Meta Reward Embark Goods Oil",
+      "Meta Reward Node Charges",
+      "Meta Reward Essential Harpy House",
+      "Meta Reward Impatience",
+      "Meta Reward Town Vision",
+      "Meta Reward Villager Speed",
+      "Meta Reward Embark Point",
+      "Meta Reward Prod Speed",
+      "Meta Reward Hub Tier 2",
+      "Meta Reward Trader Arrival",
+      "Meta Reward Trader Perk Discount",
+      "Meta Reward Citadel Home Unlock",
+      "Meta Reward Home Decor - Uniform 0 - Standard Uniform",
+      "Meta Reward Home Decor - Rosevine",
+      "Essential Decor Pipe",
+      "Essential Decor Lamp",
+      "Essential Decor Anvil",
+      "Essential Decor Nightfern",
+      "Essential Big Shelter",
+      "Meta Reward Essential Rain Collector",
+      "Meta Reward Herbalist Camp",
+      "Meta Reward Fishers Camp",
+      "Essential Mine",
+      "Meta Perk Unlock LessHostilityPerWoodcutter",
+      "Meta Perk Unlock More Node Charges",
+      "Meta Reward Cellar",
+      "Meta Reward Smelter",
+      "Essential Paved Road",
+      "Meta Trader Unlock B",
+      "Meta Perk Unlock Accidental Barrels",
+      "Meta Perk Unlock Trading Packs",
+      "Meta Reward Guild House",
+      "Meta Reward Clan Hall",
+      "Meta Reward Distillery",
+      "Meta Reward Leatherworks",
+      "Meta Reward Stamping Mill",
+      "Meta Perk Unlock Porridge Prod for water",
+      "Meta Harpies Unlock",
+      "Meta Reward Harpy House",
+      "Meta Reward Bath House",
+      "Meta Reward Apothecary",
+      "Meta Reward Artisan",
+      "Meta Perk Unlock Newcomer Rate for Trade Routes",
+      "Meta Reward Druid",
+      "Meta Reward Granary",
+      "Meta Reward Press",
+      "Meta Reward Monastery",
+      "Meta Trader Unlock C",
+      "Meta Perk Unlock Exploring Expedition",
+      "Meta Perk Unlock Resolve for started Route",
+      "Meta Foxes Unlock",
+      "Meta Reward Fox House",
+      "Meta Reward Tea Doctor",
+      "Meta Reward Tea House",
+      "Meta Reward Beanery",
+      "Meta Perk Unlock Reputation from Trade",
+      "Meta Perk Unlock Resolve for Standing",
+      "Meta Reward Manufactory",
+      "Meta Reward Smithy",
+      "Meta Reward Ranch",
+      "Meta Reward Market",
+      "Meta Perk Unlock Wildcard",
+      "Meta Perk Unlock Route Less Travel Time",
+      "Meta Perk Unlock Water Crit For Fishing",
+      "Essential Woodcutters Camp",
+      "Essential Primitive Forager",
+      "Essential Stonecutter",
+      "Essential Harvester",
+      "Essential Crude Workstation",
+      "Essential Temporary Hearth",
+      "Essential Storage",
+      "Essential Trading Post",
+      "Essential Farmfield",
+      "Essential Shelter",
+      "Essential Primitive Trapper",
+      "Essential Primitive Herbalist",
+      "Essential Makeshift Post",
+      "Meta Reward Embark Goods Wood",
+      "Meta Reward Embark Goods Eggs",
+      "Meta Reward Embark Goods Roots",
+      "Essential Primitive Fishing Hut"
+    ],
+    "expToGrant": 0,
+    "rewardsToGrant": []
+  },
+  "tutorial": {
+    "introCompleted": true,
+    "phase": 500,
+    "persistentPhase": 500,
+    "finishedTutorials": [
+      "Tutorial 1",
+      "Tutorial 2",
+      "Tutorial 3"
+    ],
+    "activeInfo": [],
+    "activeWorldInfo": [
+      "Modifiers"
+    ],
+    "completedInfo": [
+      "Exploration",
+      "Events",
+      "Logistics",
+      "WinningAndLosing",
+      "Reputation",
+      "Sacrificing",
+      "Fishing",
+      "Trading",
+      "Trade Routes",
+      "Consumption Control",
+      "Hubs",
+      "HostilityAndEffects",
+      "Cycle",
+      "Rainpunk",
+      "Seals"
+    ]
+  },
+  "goals": {
+    "goals": [
+      {
+        "model": "Finish One Game",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Tutorial Deed Win First Game",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase0_GladeDiscovery",
+        "amount": 10,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase0_CompleteOrders",
+        "amount": 10,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase0_TradeGoods",
+        "amount": 107,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Tutorial Deed Win With Events",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase1_WinGames",
+        "amount": 3,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase1_WinGameNearFertileMeadows",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase2_WinGameOnMoorlands",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase1_ReputationFromResolve",
+        "amount": 0,
+        "floatAmount": 3.54271173,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase1_WinWithoutImpatience",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase2_WinGameNearRuins",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Reforge Seal Bronze",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Abandoned Settlement",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase2_WinGameOnMarshlands",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Hard",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase1_CompleteOrders",
+        "amount": 30,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase1_GladeDiscovery",
+        "amount": 30,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase1_TradeGoods",
+        "amount": 524,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase2_ReputationFromResolve",
+        "amount": 0,
+        "floatAmount": 3.54271173,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase4_WinWithoutImpatience",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase1_WinWithPopulation",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase2_WinGameWithRelic",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase2_WinGameNearBarren",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase4_WinOnCoralBiome",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Levitating",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase1_WinWithoutVillagersDying",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Outpost",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Timed Orders 1",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Ominous Presence",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Petrified Necropolis",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Watchtower",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Trade Routes 1",
+        "amount": 14,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Frosts",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase3_WinGameNearBanditCamp",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Reforge Seal Lead",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase3_WinOnCursedBiome",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Very Hard",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Without Caches",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Without Camps",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Ale Chain",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase2_GladeDiscovery",
+        "amount": 68,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase2_CompleteOrders",
+        "amount": 39,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase2_TradeGoods",
+        "amount": 910,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase3_ReputationFromResolve",
+        "amount": 0,
+        "floatAmount": 3.54271173,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase3_WinGameWithRelic",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase3_WinWithPopulation",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game With Timed Orders",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Battleground",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Timed Orders 2",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Dangerous",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Trade Routes 2",
+        "amount": 14,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Armory",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Overgrown Library",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Metal Chain",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Humans",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Use Bait",
+        "amount": 224,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Beavers",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Lizards",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Foxes",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Harpies",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Reforge Seal Silver",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase3_GladeDiscovery",
+        "amount": 68,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase3_CompleteOrders",
+        "amount": 39,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase3_TradeGoods",
+        "amount": 1236,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase4_ReputationFromResolve",
+        "amount": 0,
+        "floatAmount": 3.54271173,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase5_WinWithoutImpatience",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase4_WinGameWithRelic",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Timed Orders 3",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase2_WInGameWithResolve",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Trade Routes 3",
+        "amount": 14,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase3_WinWithBeavers",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase3_WinWithHumans",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase3_WinWithLizards",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Harpy Population",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game With Trade Routes",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Population And Services",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Land Of Greed",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Mine",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Statue",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Temple",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Marshlands Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Scarlet Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Upgrades Bought",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Coral Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Cursed Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Coastal Grove",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Totems",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Ashen Thicket Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Coastal Grove Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game In 5 Years",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Timed Orders 4",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Ashen Thicket",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Untamed Wilds",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase2_WinGameWithoutOrders",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Trade Routes 4",
+        "amount": 14,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "TimedGoal_Phase5_DangeroudGladeDiscovery",
+        "amount": 20,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase5_WinWithResolve",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Craft Cornerstones",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Year 1 Dangerous",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Caches",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Ruins",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Amber",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Without Bonus Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With No Deaths Impossible",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Crystals",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Forbidden",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Altar",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Torrent",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Monastery",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Haunted",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Timed Orders 5",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase4_GladeDiscovery",
+        "amount": 68,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Trade Routes 5",
+        "amount": 14,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Upgrade Frog Houses",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase4_CompleteOrders",
+        "amount": 39,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase4_TradeGoods",
+        "amount": 1236,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Win Game With Modifier - Gathering Storm",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase5_ReputationFromResolve",
+        "amount": 0,
+        "floatAmount": 3.54271173,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Fox Population",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase5_WinGameWithRelic",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Send Expeditions",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase3_WinWIthRainpunk",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Send Expeditions In One Game",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase3_WinWithGoods",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "UniqueGoal_Phase5_WinWithBlightrot",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game With Glades",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Without Dangerous Glades",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game In 3 Years",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Many Events",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase5_GladeDiscovery",
+        "amount": 68,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase5_CompleteOrders",
+        "amount": 39,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Timed Orders 6",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "ScalingGoal_Phase5_TradeGoods",
+        "amount": 1236,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Reforge Seal Gold",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Trade Routes 6",
+        "amount": 14,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 1",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Without Orders Prestige",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Reputation Prestige",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Year 2 Forbidden",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Year 1 Forbidden",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Without Glades",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 2",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Dead Villagers",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 3",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Frog Population",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 4",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 5",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Frogs",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Food Needs",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Service Needs",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Reforge Seal Platinum",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With All Needs",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 6",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 7",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 8",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 9",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 10",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Reforge Seal Cobalt",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Without Bonus Prestige",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 11",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Foundry in Bay",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 12",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win on Wednesday",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 13",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 14",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 15",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Reforge Seal Titanium",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 16",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 17",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 18",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 19",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Game Prestige 20",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Reforge Seal Adamantine",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win With Dead Villagers Prestige",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Scorpion",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Snake",
+        "amount": 1,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": true,
+        "shown": true,
+        "rewarded": true,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Spider",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Spider Snake Scorpion",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Homestead and Foundry",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Assault Royal Trader",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Complete Skeleton In Time",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Discover First Forbidden Glades",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Kill Villagers With Ritual",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Marhs Meat Depleted",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Win Game With Many Forbidden Events Solved",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Win Game Without Cutting Trees",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Win Games With Blood Flowers Farmed",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Win Highest Difficulty Fast",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "[H] Win Storm Ants Without Hunger",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      },
+      {
+        "model": "Deed Win Queens Hand",
+        "amount": 0,
+        "floatAmount": 0.0,
+        "inGameProgress": 0,
+        "inGameFloatProgress": 0.0,
+        "tracked": false,
+        "completed": false,
+        "shown": false,
+        "rewarded": false,
+        "isLegacy": false
+      }
+    ]
+  },
+  "savesSupport": {
+    "worldSupportCode": "W_22_6_2023",
+    "gameSupportCode": "G_21_11_2024",
+    "highestSealTransitionCompleted": true,
+    "modifierRewardToGrant": false,
+    "currentRunRewards": [
+      {
+        "name": "Food Stockpiles",
+        "amount": 14
+      },
+      {
+        "name": "Machinery",
+        "amount": 6
+      },
+      {
+        "name": "Artifacts",
+        "amount": 3
+      }
+    ]
+  },
+  "gamesHistory": {
+    "records": [
+      {
+        "endTimestamp": 1736863594606,
+        "hasStaticName": true,
+        "name": "WorldUI_TownName_26",
+        "hasWon": true,
+        "gameTypeKey": "MenuUI_GamesHistory_RegularGame",
+        "difficulty": "0 Normal",
+        "biome": "Moorlands",
+        "level": 6,
+        "upgrades": 24,
+        "years": 7,
+        "gameTime": 3655.48145,
+        "tradeValueInAmbers": 134.51,
+        "buildingsMovedAmount": 28,
+        "hearthCorruptedAmount": 0,
+        "institutionsBuildAmount": 0,
+        "maxHubLevel": 1,
+        "paymentsAdded": 0,
+        "lakeChargesUsed": 80,
+        "races": {
+          "Lizard": 18,
+          "Human": 16,
+          "Beaver": 15
+        },
+        "cornerstones": [],
+        "buildings": [
+          "Archeology office",
+          "Human House",
+          "Beaver House",
+          "Herb Garden",
+          "Fishing Hut",
+          "Tavern",
+          "Temple",
+          "Weaver",
+          "Clothier",
+          "Clan Hall",
+          "Brickyard",
+          "Butcher",
+          "Distillery",
+          "Tinctury"
+        ],
+        "modifiers": [
+          "[Mod] Ominous Presence",
+          "[Map Mod] Trader Attack"
+        ],
+        "seasonalEffects": [
+          "[SSE] More event goods",
+          "[SSE] Resolve for Pump Operators",
+          "[SSE] [BIOME] Storm Penalty",
+          "Conditional Need Effect Bitter Rain"
+        ]
+      },
+      {
+        "endTimestamp": 1736855691282,
+        "hasStaticName": true,
+        "name": "WorldUI_TownName_15",
+        "hasWon": false,
+        "gameTypeKey": "MenuUI_GamesHistory_RegularGame",
+        "difficulty": "1 Hard",
+        "biome": "Royal Woodlands",
+        "level": 6,
+        "upgrades": 19,
+        "years": 9,
+        "gameTime": 5028.77246,
+        "tradeValueInAmbers": 190.75,
+        "buildingsMovedAmount": 35,
+        "hearthCorruptedAmount": 0,
+        "institutionsBuildAmount": 1,
+        "maxHubLevel": 0,
+        "paymentsAdded": 0,
+        "lakeChargesUsed": 120,
+        "races": {
+          "Beaver": 15,
+          "Harpy": 9,
+          "Human": 18
+        },
+        "cornerstones": [
+          "Tools for glade"
+        ],
+        "buildings": [
+          "Human House",
+          "Herb Garden",
+          "Trapper's Camp",
+          "Harpy House",
+          "Carpenter",
+          "Monastery",
+          "Cookhouse",
+          "Clothier",
+          "Bath House",
+          "Granary",
+          "Artisan",
+          "Distillery"
+        ],
+        "modifiers": [
+          "[Map Mod] No Glade Info"
+        ],
+        "seasonalEffects": [
+          "[SSE] Resolve for Water",
+          "[SSE] Woodcuters +10",
+          "[SSE] [BIOME] Storm Penalty",
+          "[SSE] Creeping Shadows",
+          "[SSE] FuelRateHostility",
+          "[SSE] Living Farmfield"
+        ]
+      },
+      {
+        "endTimestamp": 1736431141277,
+        "hasStaticName": true,
+        "name": "WorldUI_TownName_07",
+        "hasWon": true,
+        "gameTypeKey": "MenuUI_GamesHistory_RegularGame",
+        "difficulty": "1 Hard",
+        "biome": "Moorlands",
+        "level": 5,
+        "upgrades": 16,
+        "years": 8,
+        "gameTime": 4739.154,
+        "tradeValueInAmbers": 386.300018,
+        "buildingsMovedAmount": 26,
+        "hearthCorruptedAmount": 0,
+        "institutionsBuildAmount": 1,
+        "maxHubLevel": 0,
+        "paymentsAdded": 0,
+        "lakeChargesUsed": 120,
+        "races": {
+          "Harpy": 15,
+          "Beaver": 18,
+          "Human": 16
+        },
+        "cornerstones": [
+          "Hostility for Sales",
+          "Cannibalism",
+          "AncientGate_Hardships"
+        ],
+        "buildings": [
+          "Archeology office",
+          "SmallFarm",
+          "Human House",
+          "Plantation",
+          "Herbalist's Camp",
+          "Fishing Hut",
+          "Tavern",
+          "Cookhouse",
+          "Bakery",
+          "Clothier",
+          "Rain Mill",
+          "Apothecary",
+          "Distillery",
+          "Tinctury"
+        ],
+        "modifiers": [],
+        "seasonalEffects": [
+          "[SSE] RawDepositsCharges",
+          "Conditional Need Effect Strange Visions Good",
+          "[SSE] [BIOME] Storm Penalty",
+          "[SSE] Trade Routes Costs More in Storm",
+          "[SSE] Unearthly Element",
+          "Conditional Need Effect Downpour"
+        ]
+      },
+      {
+        "endTimestamp": 1736424229562,
+        "hasStaticName": true,
+        "name": "WorldUI_TownName_01",
+        "hasWon": true,
+        "gameTypeKey": "MenuUI_Options_Gameplay_TutorialHeader",
+        "difficulty": "Tutorial III Difficulty",
+        "biome": "Tutorial III",
+        "level": 5,
+        "upgrades": 16,
+        "years": 6,
+        "gameTime": 3213.16821,
+        "tradeValueInAmbers": 114.17334,
+        "buildingsMovedAmount": 25,
+        "hearthCorruptedAmount": 0,
+        "institutionsBuildAmount": 2,
+        "maxHubLevel": 0,
+        "paymentsAdded": 0,
+        "lakeChargesUsed": 0,
+        "races": {
+          "Human": 18,
+          "Beaver": 15,
+          "Lizard": 15
+        },
+        "cornerstones": [
+          "NewNewcomersBonus_Random"
+        ],
+        "buildings": [
+          "Herbalist's Camp",
+          "Lizard House",
+          "Carpenter",
+          "Guild House",
+          "Smokehouse",
+          "Brickyard",
+          "Cellar",
+          "Brewery"
+        ],
+        "modifiers": [],
+        "seasonalEffects": [
+          "[SSE] Berries +3",
+          "[SSE] [BIOME] Storm Penalty",
+          "Conditional Need Effect Hailstorm",
+          "[SSE] Grim Fate"
+        ]
+      },
+      {
+        "endTimestamp": 1736416355422,
+        "hasStaticName": true,
+        "name": "WorldUI_TownName_28",
+        "hasWon": true,
+        "gameTypeKey": "MenuUI_GamesHistory_RegularGame",
+        "difficulty": "1 Hard",
+        "biome": "Royal Woodlands",
+        "level": 4,
+        "upgrades": 12,
+        "years": 12,
+        "gameTime": 7045.12354,
+        "tradeValueInAmbers": 417.436646,
+        "buildingsMovedAmount": 46,
+        "hearthCorruptedAmount": 0,
+        "institutionsBuildAmount": 1,
+        "maxHubLevel": 0,
+        "paymentsAdded": 0,
+        "lakeChargesUsed": 120,
+        "races": {
+          "Lizard": 19,
+          "Beaver": 19,
+          "Human": 21
+        },
+        "cornerstones": [
+          "Resolve for Glade",
+          "Exploration Contract",
+          "Blood Price"
+        ],
+        "buildings": [
+          "Human House",
+          "Herb Garden",
+          "Lumbermill",
+          "Trapper's Camp",
+          "Tavern",
+          "Carpenter",
+          "Clothier",
+          "Clan Hall",
+          "Cookhouse",
+          "Kiln",
+          "Butcher",
+          "Tinctury"
+        ],
+        "modifiers": [
+          "[Map Mod] Petrified Necropolis"
+        ],
+        "seasonalEffects": [
+          "[SSE] Berries +3",
+          "[SSE] ReputationPenaltyRate 25",
+          "[SSE] [BIOME] Storm Penalty",
+          "[SSE] M0_60 Off Roads [Muddy Ground]",
+          "[SSE] Unearthly Element",
+          "Conditional Need Effect Hailstorm"
+        ]
+      },
+      {
+        "endTimestamp": 1734960057216,
+        "hasStaticName": true,
+        "name": "WorldUI_TownName_12",
+        "hasWon": true,
+        "gameTypeKey": "MenuUI_GamesHistory_RegularGame",
+        "difficulty": "1 Hard",
+        "biome": "Royal Woodlands",
+        "level": 2,
+        "upgrades": 1,
+        "years": 8,
+        "gameTime": 4344.51953,
+        "tradeValueInAmbers": 106.616669,
+        "buildingsMovedAmount": 26,
+        "hearthCorruptedAmount": 0,
+        "institutionsBuildAmount": 1,
+        "maxHubLevel": 0,
+        "paymentsAdded": 0,
+        "lakeChargesUsed": 150,
+        "races": {
+          "Beaver": 26,
+          "Lizard": 13,
+          "Human": 11
+        },
+        "cornerstones": [
+          "NeedPerk Leisure Production"
+        ],
+        "buildings": [
+          "SmallFarm",
+          "Lizard House",
+          "Trapper's Camp",
+          "Lumbermill",
+          "Fishing Hut",
+          "Tavern",
+          "Carpenter",
+          "Clothier",
+          "Brickyard",
+          "Butcher",
+          "Tinctury"
+        ],
+        "modifiers": [
+          "[Map Mod] Overgrown Library"
+        ],
+        "seasonalEffects": [
+          "[SSE] Berries +3",
+          "[SSE] Glades Resolve in Drizzle",
+          "[SSE] [BIOME] Storm Penalty",
+          "[SSE] FuelRateHostility",
+          "Conditional Need Effect Hailstorm",
+          "Conditional Need Effect Swarms Bad"
+        ]
+      },
+      {
+        "endTimestamp": 1734534345108,
+        "hasStaticName": true,
+        "name": "Tutorial_Town2_Name",
+        "hasWon": false,
+        "gameTypeKey": "MenuUI_Options_Gameplay_TutorialHeader",
+        "difficulty": "Tutorial II Difficulty",
+        "biome": "Tutorial II",
+        "level": 1,
+        "upgrades": 0,
+        "years": 4,
+        "gameTime": 2401.98853,
+        "tradeValueInAmbers": 0.0,
+        "buildingsMovedAmount": 0,
+        "hearthCorruptedAmount": 0,
+        "institutionsBuildAmount": 0,
+        "maxHubLevel": 0,
+        "paymentsAdded": 0,
+        "lakeChargesUsed": 0,
+        "races": {
+          "Human": 5,
+          "Beaver": 3,
+          "Lizard": 3
+        },
+        "cornerstones": [
+          "SmallFarm +50"
+        ],
+        "buildings": [
+          "Shelter",
+          "SmallFarm"
+        ],
+        "modifiers": [],
+        "seasonalEffects": [
+          "[SSE] [BIOME] Tut 1 Storm Penalty",
+          "Conditional Need Effect Regular Storm"
+        ]
+      },
+      {
+        "endTimestamp": 1734530491451,
+        "hasStaticName": true,
+        "name": "Tutorial_Town1_Name",
+        "hasWon": true,
+        "gameTypeKey": "MenuUI_Options_Gameplay_TutorialHeader",
+        "difficulty": "Tutorial I Difficulty",
+        "biome": "Tutorial I",
+        "level": 1,
+        "upgrades": 0,
+        "years": 3,
+        "gameTime": 2055.91235,
+        "tradeValueInAmbers": 0.0,
+        "buildingsMovedAmount": 0,
+        "hearthCorruptedAmount": 0,
+        "institutionsBuildAmount": 0,
+        "maxHubLevel": 0,
+        "paymentsAdded": 0,
+        "lakeChargesUsed": 0,
+        "races": {
+          "Human": 8,
+          "Beaver": 9,
+          "Lizard": 5
+        },
+        "cornerstones": [
+          "Exploration Contract",
+          "Eggs 15pm"
+        ],
+        "buildings": [
+          "Crude Workstation",
+          "Woodcutters Camp",
+          "Shelter",
+          "Stonecutter's Camp",
+          "Harvester Camp",
+          "Primitive Forager's Camp",
+          "Lizard House"
+        ],
+        "modifiers": [],
+        "seasonalEffects": [
+          "[SSE] [BIOME] Tut 1 Storm Penalty"
+        ]
+      }
+    ]
+  },
+  "narration": {
+    "handType": 0,
+    "lastLoreTopicShownGame": 2,
+    "tags": [
+      "[N] Initiation",
+      "[N] FirstGameResultDialog"
+    ],
+    "topics": {
+      "InitialFresh": {
+        "model": "InitialFresh",
+        "amountShown": 1
+      },
+      "FirstGameWon": {
+        "model": "FirstGameWon",
+        "amountShown": 1
+      },
+      "TradeRoutesUnlocked": {
+        "model": "TradeRoutesUnlocked",
+        "amountShown": 1
+      },
+      "Rain": {
+        "model": "Rain",
+        "amountShown": 1
+      }
+    }
+  },
+  "ironman": {
+    "acceptedTerms": false,
+    "failuresRewardsGranted": false,
+    "resultSaved": false,
+    "forfeited": false,
+    "cutscenePlayed": false,
+    "completedPicks": 0,
+    "currentPick": null,
+    "seenUpgrades": {}
+  },
+  "credits": {
+    "sealCreditsShown": false,
+    "lastSealCreditsShown": false,
+    "ironmanCreditsShown": false
+  },
+  "content": {
+    "buildings": [
+      "Bakery",
+      "Beaver House",
+      "Brewery",
+      "Brickyard",
+      "Carpenter",
+      "Clothier",
+      "Cookhouse",
+      "Crude Workstation",
+      "Farmfield",
+      "Forager's Camp",
+      "Harpy House",
+      "Herb Garden",
+      "Human House",
+      "Kiln",
+      "Lizard House",
+      "Lumbermill",
+      "Makeshift Post",
+      "Mine",
+      "Path",
+      "Paved Road",
+      "Plantation",
+      "Provisioner",
+      "Shelter",
+      "SmallFarm",
+      "Smokehouse",
+      "Stonecutter's Camp",
+      "Storage (buildable)",
+      "Tavern",
+      "Temporary Hearth (buildable)",
+      "Trading Post",
+      "Trapper's Camp",
+      "Weaver",
+      "Woodcutters Camp",
+      "Finesmith",
+      "Rainpunk Foundry",
+      "Homestead",
+      "Rain Totem Positive",
+      "Sacrifice Totem Positive",
+      "Termite Burrow Positive",
+      "Bank",
+      "Barrels",
+      "Fence",
+      "CornerFence",
+      "Bush",
+      "Flower Bed",
+      "Fire Shrine",
+      "Lizard Post",
+      "Blight Post",
+      "Harvester Camp",
+      "Hydrant",
+      "Stormbird Positive",
+      "Rain Mill",
+      "Archeology office",
+      "Archaeology Snake Positive",
+      "Archaeology Spider Positive",
+      "Archaeology Scorpion Positive",
+      "Harmony Spirit Altar Positive",
+      "Hallowed SmallFarm",
+      "Hallowed Herb Garden",
+      "Purged Human House",
+      "Purged Beaver House",
+      "Holy Market",
+      "Holy Temple",
+      "Comfort 2x2 - Park",
+      "Aestherics 2x2 - Garden",
+      "Fishmen Lighthouse Positive",
+      "Primitive Forager's Camp",
+      "Primitive Trapper's Camp",
+      "Primitive Herbalist's Camp",
+      "Flawless Brewery",
+      "Flawless Rain Mill",
+      "Decay Altar Positive",
+      "Temple",
+      "Flawless Druid",
+      "Flawless Cellar",
+      "Flawless Smelter",
+      "Flawless Cooperage",
+      "Flawless Leatherworks",
+      "Purged Lizard House",
+      "Purged Fox House",
+      "Purged Harpy House",
+      "Monolith Positive",
+      "Sealed Biome Shrine",
+      "Primitive Fishing Hut",
+      "Purged Frog House",
+      "Tinctury",
+      "Holy Guild House",
+      "Butcher",
+      "Port",
+      "Biome Perk Crafter",
+      "Pipe",
+      "Lamp",
+      "Anvil",
+      "Nightfern",
+      "Big Shelter",
+      "Rain Catcher",
+      "Herbalist's Camp",
+      "Fishing Hut",
+      "Cellar",
+      "Smelter",
+      "Guild House",
+      "Clan Hall",
+      "Distillery",
+      "Leatherworks",
+      "Stamping Mill",
+      "Bath House",
+      "Apothecary",
+      "Artisan",
+      "Druid",
+      "Granary",
+      "Press",
+      "Monastery",
+      "Fox House",
+      "Tea Doctor",
+      "Tea House",
+      "Beanery",
+      "Manufactory",
+      "Smithy",
+      "Ranch",
+      "Market"
+    ],
+    "replacedBuildings": [],
+    "essentialBuildings": [
+      "Bank",
+      "Small Hearth",
+      "AncientShrine_T1",
+      "SealedTomb_T1",
+      "TI AncientShrine_T1",
+      "Scorpion 1",
+      "Scorpion 2",
+      "Scorpion 3",
+      "Snake 1",
+      "Snake 2",
+      "Snake 3",
+      "Spider 1",
+      "Spider 2",
+      "Spider 3",
+      "BeaverBattleground_T1",
+      "FoxBattleground_T1",
+      "FrogBattleground_T1",
+      "HarpyBattleground_T1",
+      "HumanBattleground_T1",
+      "LizardBattleground_T1",
+      "Blightrot - Clone",
+      "Blightrot",
+      "Blightrot Cauldron",
+      "Camp_T1",
+      "Camp_T2",
+      "Caravan_T1",
+      "Caravan_T2",
+      "Traders Cemetery",
+      "RewardChest_T1",
+      "RewardChest_T2",
+      "RewardChest_T3",
+      "AngryGhostChest_T1",
+      "CalmGhostChest_T1",
+      "Escaped Convicts",
+      "Corrupted Caravan",
+      "Decay Altar",
+      "Fishmen Cave",
+      "Fishmen Lighthouse",
+      "Fishmen Outpost",
+      "Fishmen Soothsayer",
+      "Fishmen Totem",
+      "Rain Totem",
+      "Sacrifice Totem",
+      "Angry Ghost 1",
+      "Angry Ghost 10",
+      "Angry Ghost 14",
+      "Angry Ghost 15",
+      "Angry Ghost 16",
+      "Angry Ghost 17",
+      "Angry Ghost 18",
+      "Angry Ghost 19",
+      "Angry Ghost 2",
+      "Angry Ghost 20",
+      "Angry Ghost 21",
+      "Angry Ghost 24",
+      "Angry Ghost 31",
+      "Angry Ghost 32",
+      "Angry Ghost 34",
+      "Angry Ghost 4",
+      "Angry Ghost 41",
+      "Angry Ghost 5",
+      "Angry Ghost 6",
+      "Angry Ghost 9",
+      "Calm Ghost 11",
+      "Calm Ghost 12",
+      "Calm Ghost 13",
+      "Calm Ghost 22",
+      "Calm Ghost 23",
+      "Calm Ghost 25",
+      "Calm Ghost 26",
+      "Calm Ghost 27",
+      "Calm Ghost 28",
+      "Calm Ghost 29",
+      "Calm Ghost 3",
+      "Calm Ghost 30",
+      "Calm Ghost 33",
+      "Calm Ghost 35",
+      "Calm Ghost 36",
+      "Calm Ghost 38",
+      "Calm Ghost 39",
+      "Calm Ghost 40",
+      "Calm Ghost 7",
+      "Calm Ghost 8",
+      "Harmony Spirit Altar",
+      "Infected Mole",
+      "Infected Tree",
+      "Kelpie",
+      "Merchant Ship Wreck",
+      "Mistworm_T1",
+      "Mole",
+      "Monolith",
+      "Noxious Machinery",
+      "PetrifiedTree_T1",
+      "Fuming Machinery",
+      "Leaking Cauldron",
+      "Lightning Catcher",
+      "RainpunkFactory",
+      "Rainpunk Drill - Coal",
+      "Rainpunk Drill - Copper",
+      "Rainpunk Drill - Salt",
+      "Black Stag",
+      "Gold Stag",
+      "White Stag",
+      "Giant Stormbird",
+      "Termite Burrow",
+      "Glade Trader - The Hermit",
+      "Glade Trader - The Seer",
+      "Glade Trader - The Shaman",
+      "Black Treasure Stag",
+      "Gold Treasure Stag",
+      "White Treasure Stag",
+      "War Beast Cage",
+      "Wildfire",
+      "Path",
+      "Main Storage (not-buildable)",
+      "Barrels",
+      "Altar",
+      "Fence",
+      "CornerFence",
+      "Comfort 2x2 - Park",
+      "Water Extractor",
+      "Rain Catcher",
+      "Aestherics 2x2 - Groundwater Extractor",
+      "Bush",
+      "Flower Bed",
+      "Aestherics 2x2 - Garden",
+      "Bonfire",
+      "Fish",
+      "Town Board",
+      "Fire Shrine",
+      "Lizard Post",
+      "Pipe",
+      "Lamp",
+      "Anvil",
+      "Nightfern",
+      "Big Shelter",
+      "Mine",
+      "Paved Road",
+      "Woodcutters Camp",
+      "Primitive Forager's Camp",
+      "Stonecutter's Camp",
+      "Harvester Camp",
+      "Crude Workstation",
+      "Temporary Hearth (buildable)",
+      "Storage (buildable)",
+      "Trading Post",
+      "Farmfield",
+      "Shelter",
+      "Primitive Trapper's Camp",
+      "Primitive Herbalist's Camp",
+      "Makeshift Post",
+      "Primitive Fishing Hut"
+    ],
+    "traders": [
+      "Trader 0 - General",
+      "Trader 1 - First Dawn Company",
+      "Trader 2 - Brass Order",
+      "Trader 3 - Ancient"
+    ],
+    "effects": [
+      "LessHostilityPerWoodcutter",
+      "RawDepositsCharges_10",
+      "Accidental Barrels",
+      "Trading Packs",
+      "Porridge Prod for water",
+      "Newcomer Rate for Trade Routes",
+      "Exploring Expedition",
+      "Resolve for started Route",
+      "Reputation from Trade",
+      "Resolve for Standing",
+      "Wildcard Pick Cornerstone",
+      "Route Less Travel Time",
+      "Water Crit For Fishing"
+    ],
+    "races": [
+      "Harpy",
+      "Foxes"
+    ],
+    "embarkEffects": [
+      "NewRandomVillagers 3",
+      "Herbalist Camp Blueprint"
+    ],
+    "embarkEffectsMetaRewards": [
+      "Meta Reward Embark Villagers",
+      "Meta Reward Embark Blueprint Herbalist"
+    ],
+    "embarkGoodsMetaRewards": [
+      "Meta Reward Embark Goods Stone",
+      "Meta Reward Embark Goods Clay",
+      "Meta Reward Embark Goods Vegetables",
+      "Meta Reward Embark Goods Meat",
+      "Meta Reward Embark Goods Coal",
+      "Meta Reward Embark Goods Oil",
+      "Meta Reward Embark Goods Wood",
+      "Meta Reward Embark Goods Eggs",
+      "Meta Reward Embark Goods Roots"
+    ],
+    "caravanGoods": {
+      "[Mat Processed] Pipe": 10,
+      "[Mat Processed] Planks": 5
+    },
+    "essentialRacialBuildings": {
+      "Human": [
+        "Human House"
+      ],
+      "Beaver": [
+        "Beaver House"
+      ],
+      "Lizard": [
+        "Lizard House"
+      ],
+      "Harpy": [
+        "Harpy House"
+      ]
+    }
+  },
+  "perks": {
+    "bonusReputationRewardsPicks": 1,
+    "bonusPreparationPoints": 3,
+    "bonusSeasonRewardsAmount": 1,
+    "bonusCaravans": 0,
+    "bonusTradeRoutesLimit": 0,
+    "bonusCapitalVision": 0,
+    "bonusTownsVision": 1,
+    "bonusEmbarkRange": 0,
+    "bonusTraderMerchSlots": 1,
+    "rawDepositsChargesBonus": 4,
+    "globalBuildingStorageBonus": 0,
+    "bonusCornerstonesRerolls": 1,
+    "bonusGracePeriod": 30,
+    "globalCapacityBonus": 0,
+    "unlockedHubs": 3,
+    "bonusFarmArea": 0,
+    "bonusVillagers": 0,
+    "currencyMultiplayer": 0.1,
+    "tradersIntervalBonusRate": 0.12,
+    "traderSellPriceBonusRates": 0.0,
+    "traderMerchandisePriceBonusRates": -0.1,
+    "reputationPenaltyBonusRate": -0.139999986,
+    "globalSpeedBonusRate": 0.06,
+    "fuelConsumptionBonusRate": -0.08,
+    "newcommersGoodsBonusRate": 0.0,
+    "globalProductionSpeedBonusRate": 0.08,
+    "hearthSacraficeTimeBonusRate": 0.0,
+    "farmingBonusRate": 0.0,
+    "constructionSpeedBonusRate": 0.0,
+    "relicsWorkingSpeedBonusRate": 0.0,
+    "bonusEmbarkGoodsAmount": 0.0,
+    "globalExtraProductionChanceBonus": 0.03,
+    "grassAmountBonusRatio": 0.0,
+    "tradeRoutesEnabled": true,
+    "timedOrdersEnabled": false,
+    "consumptionControlEnabled": true,
+    "dailyChallengeEnabled": false,
+    "customGameEnabled": false,
+    "reputationRewardsRerollEnabled": true,
+    "goalsEnabled": true,
+    "rainpunkEnabled": true,
+    "mineUpgradesEnabled": true,
+    "blightPostUpgradesEnabled": false,
+    "mainStorageHaulersEnabled": false,
+    "secondaryStorageHaulersEnabled": false,
+    "homeEnbabled": true,
+    "racesWithRevealEffect": [],
+    "unlockedFactions": [],
+    "housesWithUpgrades": [],
+    "capitalHomeDecorations": [
+      "Uniform 0 - Standard Uniform",
+      "Rosevine"
+    ],
+    "menuSkins": []
+  },
+  "embarkBonuses": {
+    "buildingsOptions": [
+      {
+        "name": "Path",
+        "cost": 3
+      },
+      {
+        "name": "Storage (buildable)",
+        "cost": 1
+      },
+      {
+        "name": "Temporary Hearth (buildable)",
+        "cost": 2
+      }
+    ],
+    "buildingsPicked": [],
+    "effectsOptions": [
+      {
+        "name": "NewRandomVillagers 3",
+        "cost": 2
+      },
+      {
+        "name": "Herbalist Camp Blueprint",
+        "cost": 4
+      }
+    ],
+    "rewardsPicked": [],
+    "goodsOptions": [
+      {
+        "name": "[Mat Raw] Stone",
+        "amount": 30,
+        "cost": 2
+      },
+      {
+        "name": "[Mat Raw] Clay",
+        "amount": 30,
+        "cost": 2
+      },
+      {
+        "name": "[Food Raw] Vegetables",
+        "amount": 30,
+        "cost": 1
+      },
+      {
+        "name": "[Food Raw] Meat",
+        "amount": 30,
+        "cost": 2
+      },
+      {
+        "name": "[Crafting] Coal",
+        "amount": 30,
+        "cost": 5
+      },
+      {
+        "name": "[Crafting] Oil",
+        "amount": 30,
+        "cost": 4
+      },
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 40,
+        "cost": 1
+      },
+      {
+        "name": "[Food Raw] Eggs",
+        "amount": 20,
+        "cost": 1
+      },
+      {
+        "name": "[Food Raw] Roots",
+        "amount": 20,
+        "cost": 1
+      }
+    ],
+    "goodsPicked": [],
+    "caravans": [
+      {
+        "revealedRaces": 2,
+        "races": [
+          "Lizard",
+          "Harpy",
+          "Foxes"
+        ],
+        "villagers": [
+          "Harpy",
+          "Foxes",
+          "Harpy",
+          "Foxes",
+          "Foxes",
+          "Harpy"
+        ],
+        "embarkGoods": [
+          {
+            "name": "[Food Raw] Eggs",
+            "amount": 30
+          },
+          {
+            "name": "[Mat Processed] Parts",
+            "amount": 20
+          },
+          {
+            "name": "[Mat Processed] Pipe",
+            "amount": 10
+          },
+          {
+            "name": "[Mat Processed] Planks",
+            "amount": 5
+          },
+          {
+            "name": "Hearth Parts",
+            "amount": 4
+          },
+          {
+            "name": "[Mat Raw] Wood",
+            "amount": 10
+          },
+          {
+            "name": "[Crafting] Coal",
+            "amount": 20
+          }
+        ],
+        "bonusEmbarkGoods": [
+          {
+            "name": "[Food Processed] Paste",
+            "amount": 20
+          },
+          {
+            "name": "[Food Raw] Berries",
+            "amount": 20
+          },
+          {
+            "name": "[Crafting] Dye",
+            "amount": 20
+          }
+        ],
+        "embarkEffects": [],
+        "bonusEmbarkEffects": []
+      },
+      {
+        "revealedRaces": 1,
+        "races": [
+          "Human",
+          "Beaver",
+          "Harpy"
+        ],
+        "villagers": [
+          "Human",
+          "Human",
+          "Human",
+          "Human",
+          "Human",
+          "Human",
+          "Human",
+          "Human"
+        ],
+        "embarkGoods": [
+          {
+            "name": "[Food Raw] Eggs",
+            "amount": 30
+          },
+          {
+            "name": "[Mat Processed] Parts",
+            "amount": 20
+          },
+          {
+            "name": "[Mat Processed] Pipe",
+            "amount": 10
+          },
+          {
+            "name": "[Mat Processed] Planks",
+            "amount": 5
+          },
+          {
+            "name": "Hearth Parts",
+            "amount": 4
+          },
+          {
+            "name": "[Mat Raw] Wood",
+            "amount": 10
+          },
+          {
+            "name": "[Crafting] Coal",
+            "amount": 20
+          }
+        ],
+        "bonusEmbarkGoods": [
+          {
+            "name": "[Food Raw] Meat",
+            "amount": 20
+          },
+          {
+            "name": "[Mat Processed] Planks",
+            "amount": 15
+          }
+        ],
+        "embarkEffects": [],
+        "bonusEmbarkEffects": []
+      }
+    ]
+  },
+  "gameConditions": {
+    "isTutorial": false,
+    "seed": 682303392,
+    "map": "Coral Forest 01",
+    "biome": "Coral Forest",
+    "worldField": {
+      "x": 0,
+      "y": 4,
+      "z": -4,
+      "magnitude": 5.656854,
+      "sqrMagnitude": 32
+    },
+    "isDailyChallange": false,
+    "isCustomGame": false,
+    "difficulty": "0 Normal",
+    "embarkPointsUsed": 10,
+    "blueprintsConfig": "Default Blueprints Config",
+    "isBlightActive": false,
+    "blightFootprintRate": 0.0,
+    "blightCorruptionRate": 0.0,
+    "reputationToWin": 12,
+    "reputationPenaltyToLoose": 14,
+    "reputationPenaltyPerSec": 0.00425,
+    "drizzleDuration": 240.0,
+    "clearanceDuration": 240.0,
+    "stormDuration": 120.0,
+    "positiveSeasonalEffectsAmount": 0,
+    "negativeSeasonalEffectsAmount": 0,
+    "seasonalEffects": null,
+    "races": [
+      "Lizard",
+      "Harpy",
+      "Foxes"
+    ],
+    "initialVillagers": [
+      "Harpy",
+      "Foxes",
+      "Harpy",
+      "Foxes",
+      "Foxes",
+      "Harpy"
+    ],
+    "tradeTowns": [
+      {
+        "distance": 4,
+        "townName": "WorldUI_Map_Capital",
+        "hasStaticName": true,
+        "biome": "Royal Woodlands",
+        "faction": null
+      },
+      {
+        "distance": 3,
+        "townName": "WorldUI_TownName_26",
+        "hasStaticName": true,
+        "biome": "Moorlands",
+        "faction": null
+      }
+    ],
+    "embarkGoods": [
+      {
+        "name": "[Food Raw] Eggs",
+        "amount": 20
+      },
+      {
+        "name": "[Food Raw] Meat",
+        "amount": 30
+      },
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 40
+      },
+      {
+        "name": "[Food Raw] Eggs",
+        "amount": 30
+      },
+      {
+        "name": "[Mat Processed] Parts",
+        "amount": 20
+      },
+      {
+        "name": "[Mat Processed] Pipe",
+        "amount": 10
+      },
+      {
+        "name": "[Mat Processed] Planks",
+        "amount": 5
+      },
+      {
+        "name": "Hearth Parts",
+        "amount": 4
+      },
+      {
+        "name": "[Mat Raw] Wood",
+        "amount": 10
+      },
+      {
+        "name": "[Crafting] Coal",
+        "amount": 20
+      },
+      {
+        "name": "[Food Processed] Paste",
+        "amount": 20
+      },
+      {
+        "name": "[Food Raw] Berries",
+        "amount": 20
+      },
+      {
+        "name": "[Crafting] Dye",
+        "amount": 20
+      }
+    ],
+    "embarkEffects": [
+      "NewRandomVillagers 3",
+      "Herbalist Camp Blueprint"
+    ],
+    "embarkBuildings": [],
+    "earlyEffects": [
+      "[Map Mod] Ruins",
+      "[Map Mod] No Control"
+    ],
+    "lateEffects": [],
+    "effectsToRecord": [
+      "[Map Mod] Ruins",
+      "[Map Mod] No Control"
+    ],
+    "rewards": [
+      {
+        "name": "Food Stockpiles",
+        "amount": 14
+      },
+      {
+        "name": "Machinery",
+        "amount": 6
+      },
+      {
+        "name": "Artifacts",
+        "amount": 3
+      }
+    ]
+  },
+  "embarkBonusesSeed": 1181622288
+}

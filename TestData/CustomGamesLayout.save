@@ -1,0 +1,1690 @@
+{
+  "layouts": [
+    {
+      "name": null,
+      "lastChange": 0,
+      "seed": 0,
+      "biome": "Royal Woodlands",
+      "difficultyIndex": 0,
+      "isBlightActive": false,
+      "blightFootprintIndex": 0,
+      "blightCorruptionIndex": 0,
+      "reputationIndex": 0,
+      "reputationPenaltyIndex": 0,
+      "reputationPenaltyRateIndex": 0,
+      "drizzleDurationIndex": 0,
+      "clearanceDurationIndex": 0,
+      "stormDurationIndex": 0,
+      "positiveSeasonalEffectsAmount": 0,
+      "negativeSeasonalEffectsAmount": 0,
+      "seasonalEffects": null,
+      "modifiers": [],
+      "races": [],
+      "embarkGoods": [
+        {
+          "name": "[Mat Raw] Wood",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Coal",
+          "amount": 0
+        },
+        {
+          "name": "Hearth Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Pipe",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Eggs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Roots",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Vegetables",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Meat",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Mushrooms",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Insects",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Berries",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Fish",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Herbs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Grain",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Clay",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Stone",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Plant Fibre",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Reeds",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Algae",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Leather",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Scales",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Resin",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Sea Marrow",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Oil",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Planks",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Fabric",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Bricks",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Salt",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Flour",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Dye",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Barrels",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Pottery",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Waterskin",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Ore",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Bar",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 0
+        },
+        {
+          "name": "Blight Fuel",
+          "amount": 0
+        },
+        {
+          "name": "[Tools] Simple Tools",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Boots",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Coats",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Scrolls",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Porridge",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Jerky",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Skewers",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Biscuits",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pie",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Paste",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Ale",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Tea",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Training Gear",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Wine",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Incense",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Crops",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Amber",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Ancient Tablet",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Drizzle Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Clearance Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Storm Water",
+          "amount": 0
+        }
+      ],
+      "embarkEffects": [],
+      "tradeTownsFactions": []
+    },
+    {
+      "name": null,
+      "lastChange": 0,
+      "seed": 0,
+      "biome": "Royal Woodlands",
+      "difficultyIndex": 0,
+      "isBlightActive": false,
+      "blightFootprintIndex": 0,
+      "blightCorruptionIndex": 0,
+      "reputationIndex": 0,
+      "reputationPenaltyIndex": 0,
+      "reputationPenaltyRateIndex": 0,
+      "drizzleDurationIndex": 0,
+      "clearanceDurationIndex": 0,
+      "stormDurationIndex": 0,
+      "positiveSeasonalEffectsAmount": 0,
+      "negativeSeasonalEffectsAmount": 0,
+      "seasonalEffects": null,
+      "modifiers": [],
+      "races": [],
+      "embarkGoods": [
+        {
+          "name": "[Mat Raw] Wood",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Coal",
+          "amount": 0
+        },
+        {
+          "name": "Hearth Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Pipe",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Eggs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Roots",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Vegetables",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Meat",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Mushrooms",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Insects",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Berries",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Fish",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Herbs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Grain",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Clay",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Stone",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Plant Fibre",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Reeds",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Algae",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Leather",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Scales",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Resin",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Sea Marrow",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Oil",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Planks",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Fabric",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Bricks",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Salt",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Flour",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Dye",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Barrels",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Pottery",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Waterskin",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Ore",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Bar",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 0
+        },
+        {
+          "name": "Blight Fuel",
+          "amount": 0
+        },
+        {
+          "name": "[Tools] Simple Tools",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Boots",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Coats",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Scrolls",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Porridge",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Jerky",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Skewers",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Biscuits",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pie",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Paste",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Ale",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Tea",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Training Gear",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Wine",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Incense",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Crops",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Amber",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Ancient Tablet",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Drizzle Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Clearance Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Storm Water",
+          "amount": 0
+        }
+      ],
+      "embarkEffects": [],
+      "tradeTownsFactions": []
+    },
+    {
+      "name": null,
+      "lastChange": 0,
+      "seed": 0,
+      "biome": "Royal Woodlands",
+      "difficultyIndex": 0,
+      "isBlightActive": false,
+      "blightFootprintIndex": 0,
+      "blightCorruptionIndex": 0,
+      "reputationIndex": 0,
+      "reputationPenaltyIndex": 0,
+      "reputationPenaltyRateIndex": 0,
+      "drizzleDurationIndex": 0,
+      "clearanceDurationIndex": 0,
+      "stormDurationIndex": 0,
+      "positiveSeasonalEffectsAmount": 0,
+      "negativeSeasonalEffectsAmount": 0,
+      "seasonalEffects": null,
+      "modifiers": [],
+      "races": [],
+      "embarkGoods": [
+        {
+          "name": "[Mat Raw] Wood",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Coal",
+          "amount": 0
+        },
+        {
+          "name": "Hearth Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Pipe",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Eggs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Roots",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Vegetables",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Meat",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Mushrooms",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Insects",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Berries",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Fish",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Herbs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Grain",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Clay",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Stone",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Plant Fibre",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Reeds",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Algae",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Leather",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Scales",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Resin",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Sea Marrow",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Oil",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Planks",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Fabric",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Bricks",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Salt",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Flour",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Dye",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Barrels",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Pottery",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Waterskin",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Ore",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Bar",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 0
+        },
+        {
+          "name": "Blight Fuel",
+          "amount": 0
+        },
+        {
+          "name": "[Tools] Simple Tools",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Boots",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Coats",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Scrolls",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Porridge",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Jerky",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Skewers",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Biscuits",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pie",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Paste",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Ale",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Tea",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Training Gear",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Wine",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Incense",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Crops",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Amber",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Ancient Tablet",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Drizzle Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Clearance Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Storm Water",
+          "amount": 0
+        }
+      ],
+      "embarkEffects": [],
+      "tradeTownsFactions": []
+    },
+    {
+      "name": null,
+      "lastChange": 0,
+      "seed": 0,
+      "biome": "Royal Woodlands",
+      "difficultyIndex": 0,
+      "isBlightActive": false,
+      "blightFootprintIndex": 0,
+      "blightCorruptionIndex": 0,
+      "reputationIndex": 0,
+      "reputationPenaltyIndex": 0,
+      "reputationPenaltyRateIndex": 0,
+      "drizzleDurationIndex": 0,
+      "clearanceDurationIndex": 0,
+      "stormDurationIndex": 0,
+      "positiveSeasonalEffectsAmount": 0,
+      "negativeSeasonalEffectsAmount": 0,
+      "seasonalEffects": null,
+      "modifiers": [],
+      "races": [],
+      "embarkGoods": [
+        {
+          "name": "[Mat Raw] Wood",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Coal",
+          "amount": 0
+        },
+        {
+          "name": "Hearth Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Pipe",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Eggs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Roots",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Vegetables",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Meat",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Mushrooms",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Insects",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Berries",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Fish",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Herbs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Grain",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Clay",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Stone",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Plant Fibre",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Reeds",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Algae",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Leather",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Scales",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Resin",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Sea Marrow",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Oil",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Planks",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Fabric",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Bricks",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Salt",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Flour",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Dye",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Barrels",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Pottery",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Waterskin",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Ore",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Bar",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 0
+        },
+        {
+          "name": "Blight Fuel",
+          "amount": 0
+        },
+        {
+          "name": "[Tools] Simple Tools",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Boots",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Coats",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Scrolls",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Porridge",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Jerky",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Skewers",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Biscuits",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pie",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Paste",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Ale",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Tea",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Training Gear",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Wine",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Incense",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Crops",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Amber",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Ancient Tablet",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Drizzle Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Clearance Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Storm Water",
+          "amount": 0
+        }
+      ],
+      "embarkEffects": [],
+      "tradeTownsFactions": []
+    },
+    {
+      "name": null,
+      "lastChange": 0,
+      "seed": 0,
+      "biome": "Royal Woodlands",
+      "difficultyIndex": 0,
+      "isBlightActive": false,
+      "blightFootprintIndex": 0,
+      "blightCorruptionIndex": 0,
+      "reputationIndex": 0,
+      "reputationPenaltyIndex": 0,
+      "reputationPenaltyRateIndex": 0,
+      "drizzleDurationIndex": 0,
+      "clearanceDurationIndex": 0,
+      "stormDurationIndex": 0,
+      "positiveSeasonalEffectsAmount": 0,
+      "negativeSeasonalEffectsAmount": 0,
+      "seasonalEffects": null,
+      "modifiers": [],
+      "races": [],
+      "embarkGoods": [
+        {
+          "name": "[Mat Raw] Wood",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Coal",
+          "amount": 0
+        },
+        {
+          "name": "Hearth Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Pipe",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Eggs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Roots",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Vegetables",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Meat",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Mushrooms",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Insects",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Berries",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Fish",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Herbs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Grain",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Clay",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Stone",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Plant Fibre",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Reeds",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Algae",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Leather",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Scales",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Resin",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Sea Marrow",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Oil",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Planks",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Fabric",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Bricks",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Salt",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Flour",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Dye",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Barrels",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Pottery",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Waterskin",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Ore",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Bar",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 0
+        },
+        {
+          "name": "Blight Fuel",
+          "amount": 0
+        },
+        {
+          "name": "[Tools] Simple Tools",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Boots",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Coats",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Scrolls",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Porridge",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Jerky",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Skewers",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Biscuits",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pie",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Paste",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Ale",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Tea",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Training Gear",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Wine",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Incense",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Crops",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Amber",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Ancient Tablet",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Drizzle Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Clearance Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Storm Water",
+          "amount": 0
+        }
+      ],
+      "embarkEffects": [],
+      "tradeTownsFactions": []
+    },
+    {
+      "name": null,
+      "lastChange": 0,
+      "seed": 0,
+      "biome": "Royal Woodlands",
+      "difficultyIndex": 0,
+      "isBlightActive": false,
+      "blightFootprintIndex": 0,
+      "blightCorruptionIndex": 0,
+      "reputationIndex": 0,
+      "reputationPenaltyIndex": 0,
+      "reputationPenaltyRateIndex": 0,
+      "drizzleDurationIndex": 0,
+      "clearanceDurationIndex": 0,
+      "stormDurationIndex": 0,
+      "positiveSeasonalEffectsAmount": 0,
+      "negativeSeasonalEffectsAmount": 0,
+      "seasonalEffects": null,
+      "modifiers": [],
+      "races": [],
+      "embarkGoods": [
+        {
+          "name": "[Mat Raw] Wood",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Coal",
+          "amount": 0
+        },
+        {
+          "name": "Hearth Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Parts",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Pipe",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Eggs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Roots",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Vegetables",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Meat",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Mushrooms",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Insects",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Berries",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Fish",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Herbs",
+          "amount": 0
+        },
+        {
+          "name": "[Food Raw] Grain",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Clay",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Stone",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Plant Fibre",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Reeds",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Algae",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Leather",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Scales",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Raw] Resin",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Sea Marrow",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Oil",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Planks",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Fabric",
+          "amount": 0
+        },
+        {
+          "name": "[Mat Processed] Bricks",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Salt",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Flour",
+          "amount": 0
+        },
+        {
+          "name": "[Crafting] Dye",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Barrels",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Pottery",
+          "amount": 0
+        },
+        {
+          "name": "[Vessel] Waterskin",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Ore",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Copper Bar",
+          "amount": 0
+        },
+        {
+          "name": "[Metal] Crystalized Dew",
+          "amount": 0
+        },
+        {
+          "name": "Blight Fuel",
+          "amount": 0
+        },
+        {
+          "name": "[Tools] Simple Tools",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Boots",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Coats",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Scrolls",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Porridge",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Jerky",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Skewers",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Biscuits",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pie",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Pickled Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Food Processed] Paste",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Ale",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Tea",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Training Gear",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Wine",
+          "amount": 0
+        },
+        {
+          "name": "[Needs] Incense",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Provisions",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Trade Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Crops",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Luxury Goods",
+          "amount": 0
+        },
+        {
+          "name": "[Packs] Pack of Building Materials",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Amber",
+          "amount": 0
+        },
+        {
+          "name": "[Valuable] Ancient Tablet",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Drizzle Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Clearance Water",
+          "amount": 0
+        },
+        {
+          "name": "[Water] Storm Water",
+          "amount": 0
+        }
+      ],
+      "embarkEffects": [],
+      "tradeTownsFactions": []
+    }
+  ]
+}
